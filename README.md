@@ -28,11 +28,11 @@ The system combines both signal scores by averaging them into a single confidenc
 
 ## Transparency Labels
 
-### High-confidence AI
+### Likely AI
 
 This text shows strong patterns associated with AI-generated writing.
 
-### High-confidence Human
+### Likely Human
 
 This text shows strong patterns associated with human-written work.
 
