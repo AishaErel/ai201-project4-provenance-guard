@@ -259,7 +259,7 @@ Artificial intelligence is important. Artificial intelligence is important for s
     "content_id": "6fd3e03c-e761-4654-abe6-f32e4116d081",
     "creator_id": "test-user-1",
     "appeal_reasoning": "I wrote this myself from personal experience. My writing style is naturally formal.",
-    "timestamp": "2026-06-29T20:45:00.000000+00:00",
+    "timestamp": "2026-06-29T20:52:26.086588+00:00",
     "status": "under_review"
   }
 ]
