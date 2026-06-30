@@ -225,160 +225,45 @@ Artificial intelligence is important. Artificial intelligence is important for s
 - Formal and polished writing produced higher Signal 2 scores because the sentence structure was more consistent.
 
 ## Audit log json report results:
+## Audit Log Sample
 
-{
-"content_id": "fc68907f-0a84-4611-be38-436db4b373c2",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T04:19:41.110388+00:00",
-"attribution": "likely_human",
-"confidence": 0.5,
-"signal_1_score": 0.0,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"status": "classified"
-},
-{
-"event_type": "appeal",
-"appeal_id": "a6adc031-6b7b-4e84-b4ec-b7e0879cc2db",
-"content_id": "123",
-"creator_id": "test-user-1",
-"reason": "I wrote this myself.",
-"timestamp": "2026-06-29T19:56:28.769313+00:00",
-"status": "under_review"
-},
-{
-"content_id": "476c59ca-fa1b-4588-ab28-defad2f171ae",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:05:23.064397+00:00",
-"attribution": "likely_human",
-"confidence": 0.32,
-"signal_1_score": 0.13,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.5,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "1631226f-c488-497e-a300-80061fa01f27",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:09:46.379176+00:00",
-"attribution": "likely_human",
-"confidence": 0.3,
-"signal_1_score": 0.0,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.6,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "9190eec0-05ab-411e-a658-d8f55305f5e5",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:17:19.854287+00:00",
-"attribution": "uncertain",
-"confidence": 0.36,
-"signal_1_score": 0.12,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.6,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "c0342888-8dd9-4e24-b0be-877c0a291b1b",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:19:37.272985+00:00",
-"attribution": "uncertain",
-"confidence": 0.49,
-"signal_1_score": 0.14,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.85,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "2c259baa-ef38-41e0-9ac2-aaf1fdfcdf8a",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:23:53.819943+00:00",
-"attribution": "uncertain",
-"confidence": 0.46,
-"signal_1_score": 0.08,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.85,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "fb1d3f33-3daa-46e7-b847-66bb788e1172",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:25:22.568559+00:00",
-"attribution": "uncertain",
-"confidence": 0.36,
-"signal_1_score": 0.12,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.6,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "77c08628-35df-4e44-9fd1-143806cfb8f9",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:30:45.800492+00:00",
-"attribution": "uncertain",
-"confidence": 0.36,
-"signal_1_score": 0.12,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.6,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "596def25-aff9-466d-a74d-f9ff96d08511",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:30:50.237714+00:00",
-"attribution": "uncertain",
-"confidence": 0.46,
-"signal_1_score": 0.08,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.85,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "9599cd38-d7b5-44cb-b494-da409657f16d",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:33:24.324469+00:00",
-"attribution": "likely_human",
-"confidence": 0.3,
-"signal_1_score": 0.0,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.6,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-},
-{
-"content_id": "75d64576-023f-43f4-a3cc-d74af5d5c801",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:34:01.706370+00:00",
-"attribution": "uncertain",
-"confidence": 0.49,
-"signal_1_score": 0.14,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.85,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-}
+```json
+[
+  {
+    "content_id": "9599cd38-d7b5-44cb-b494-da409657f16d",
+    "creator_id": "test-user-1",
+    "timestamp": "2026-06-29T20:33:24.324469+00:00",
+    "attribution": "likely_human",
+    "confidence": 0.30,
+    "signal_1_score": 0.00,
+    "signal_1_name": "Repetition / Generic Pattern Score",
+    "signal_2_score": 0.60,
+    "signal_2_name": "Sentence Variation / Burstiness Score",
+    "status": "classified"
+  },
+  {
+    "content_id": "6fd3e03c-e761-4654-abe6-f32e4116d081",
+    "creator_id": "test-user-1",
+    "timestamp": "2026-06-29T20:36:26.566024+00:00",
+    "attribution": "likely_ai",
+    "confidence": 0.77,
+    "signal_1_score": 0.70,
+    "signal_1_name": "Repetition / Generic Pattern Score",
+    "signal_2_score": 0.85,
+    "signal_2_name": "Sentence Variation / Burstiness Score",
+    "status": "classified"
+  },
+  {
+    "event_type": "appeal",
+    "appeal_id": "205a44b8-bde4-4e2b-8d33-5b78395a6e1e",
+    "content_id": "6fd3e03c-e761-4654-abe6-f32e4116d081",
+    "creator_id": "test-user-1",
+    "appeal_reasoning": "I wrote this myself from personal experience. My writing style is naturally formal.",
+    "timestamp": "2026-06-29T20:45:00.000000+00:00",
+    "status": "under_review"
+  }
 ]
-{
-"content_id": "6fd3e03c-e761-4654-abe6-f32e4116d081",
-"creator_id": "test-user-1",
-"timestamp": "2026-06-29T20:36:26.566024+00:00",
-"attribution": "likely_ai",
-"confidence": 0.77,
-"signal_1_score": 0.7,
-"signal_1_name": "Repetition / Generic Pattern Score",
-"signal_2_score": 0.85,
-"signal_2_name": "Sentence Variation / Burstiness Score",
-"status": "classified"
-}
-
+```
 ## What needs to be changed before production?
 
 I would definitely add more detection signals, and I would use advanced machine learning techniques instead of simple heuristics. I would have need to test on larger evaluation dataset.
