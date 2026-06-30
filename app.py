@@ -247,7 +247,8 @@ def submit():
     }
 
     return jsonify(response), 200
-@app.route("/appeal", methods=["POST"]) #users may appeal the decision
+
+@app.route("/appeal", methods=["POST"])  # users may appeal the decision
 def appeal():
     data = request.get_json()
 
@@ -259,12 +260,27 @@ def appeal():
     creator_reasoning = data.get("creator_reasoning")
 
     if not content_id or not creator_id or not creator_reasoning:
-       return jsonify({"error": "content_id, creator_id, and creator_reasoning are required"}), 400
+        return jsonify({
+            "error": "content_id, creator_id, and creator_reasoning are required"
+        }), 400
 
-    #create a unique appeal id
+    # create a unique appeal id
     appeal_id = str(uuid.uuid4())
 
-    log_entry = {
+    # Load existing log entries
+    entries = get_log()
+
+    # Update the original submission status
+    for entry in entries:
+        if (
+            entry.get("content_id") == content_id
+            and entry.get("status") == "classified"
+        ):
+            entry["status"] = "under_review"
+            break
+
+    # Create the appeal entry
+    appeal_entry = {
         "event_type": "appeal",
         "appeal_id": appeal_id,
         "content_id": content_id,
@@ -274,7 +290,12 @@ def appeal():
         "status": "under_review"
     }
 
-    save_log_entry(log_entry)
+    # Add the appeal to the log
+    entries.append(appeal_entry)
+
+    # Save the updated log
+    with open(LOG_FILE, "w") as file:
+        json.dump(entries, file, indent=2)
 
     response = {
         "appeal_id": appeal_id,
