@@ -81,6 +81,8 @@ And the result:
 > essential to consider the ethical implications. Furthermore, stakeholders across various sectors must collaborate to ensure responsible deployment"
 
 **Result**
+```json
+[
 {
 "attribution": "uncertain",
 "confidence_score": 0.36,
@@ -99,6 +101,7 @@ And the result:
 },
 "status": "classified"
 }
+]
 
 ---
 
